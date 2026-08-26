@@ -1,0 +1,4 @@
+curl_cffi==0.16.2
+lxml==6.1.2
+pandas==3.0.5
+python-dotenv==1.2.3
