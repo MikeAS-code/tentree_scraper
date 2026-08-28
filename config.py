@@ -44,3 +44,22 @@ HEADERS_PDP = {
     'upgrade-insecure-requests': '1',
     'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36', 
 }
+
+BASE_URL_REVIEWS = 'https://stamped.io/api/widget'
+
+HEADERS_REVIEWS = {
+    'accept': 'application/json, text/javascript, */*; q=0.01',
+    'accept-language': 'es-419,es;q=0.9',
+    'dnt': '1',
+    'origin': 'https://www.tentree.com',
+    'priority': 'u=1, i',
+    'referer': 'https://www.tentree.com/',
+    'sec-ch-ua': '"Chromium";v="152", "Not?A_Brand";v="24", "Google Chrome";v="152"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'cross-site',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36',
+}
+
