@@ -76,7 +76,7 @@ class Discovery:
         try:
             print('Extracting pages')
             pages = self.get_pages_from_sitemap()
-            for idx,page in enumerate(pages[0:2],start=1):
+            for idx,page in enumerate(pages,start=1):
                 print(f'Getting products from page #{idx}')
                 self.get_products_from_page(page)
 
@@ -394,7 +394,7 @@ class PDP:
 
     def run(self, products):
 
-        for index, product in enumerate(products[0:3],start=1):
+        for index, product in enumerate(products,start=1):
             print(f'Product #{index}/{len(products)}')
             self.get_product_detail(product)
 
