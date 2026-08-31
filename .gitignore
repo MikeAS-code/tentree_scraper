@@ -211,8 +211,9 @@ pyrightconfig.json
 
 **/*.html
 
-
-
+.cursor/
+AGENTS.md
+.temporary/
 
 
 

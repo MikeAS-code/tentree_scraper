@@ -13,7 +13,6 @@ PROXIES={
 
 BASE_URL='https://www.tentree.com'
 
-
 PRODUCT_SITEMAP_PATTERN = re.compile(
     r"^https://www\.tentree\.com/sitemap_products_\d+\.xml\?from=\d+&to=\d+$"
 )
@@ -25,7 +24,6 @@ PRODUCT_PATTERN = re.compile(
 TIMEOUT=30
 
 MAX_RETRIES=3
-
 
 HEADERS_PDP = {
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
