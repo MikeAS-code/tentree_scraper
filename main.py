@@ -275,7 +275,8 @@ class PDP:
 
             try:
                 raw_description = data['description']
-                description = raw_description.replace('<p>','').replace('</p>', '')
+                tree = html.fromstring(raw_description)
+                description = tree.text_content().strip()
                 if not description:
                     description = ''
             except:
